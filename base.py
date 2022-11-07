@@ -18,10 +18,10 @@
 # hello_greet = True
 
   # 変数の型を調べる
-# print(type(hello))
-# print(type(hello_length))
-# print(type(hello_times))
-# print(type(hello_greet))
+# type(hello)
+# type(hello_length)
+# type(hello_times)
+# type(hello_greet)
 
 
 # 条件分岐
@@ -37,13 +37,32 @@
 
 
 # 関数
+# def hello_greet(times) :
+#   hello_status = times
+
+#   if hello_status < 10 :
+#     print("a little")
+#   else :
+#     print("enough")
+
+# hello_greet(5)
+
+
+# list
+greet_list = ["good morning", "hello", "good evening"]
+# print(greet_list[0])
+
+
+# loop action
+
 def hello_greet(times) :
   hello_status = times
 
-  if hello_status < 10 :
+  if hello_status < 2 :
     print("a little")
   else :
     print("enough")
 
-
-hello_greet(5)
+for i in range(5):
+  print(i)
+  hello_greet(i + 1)
