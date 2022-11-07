@@ -12,10 +12,10 @@
 
 
 # 変数
-hello = "Hello, world!"
-hello_length = 5
-hello_times = 3.5
-hello_greet = True
+# hello = "Hello, world!"
+# hello_length = 5
+# hello_times = 3.5
+# hello_greet = True
 
   # 変数の型を調べる
 # print(type(hello))
@@ -37,3 +37,13 @@ hello_greet = True
 
 
 # 関数
+def hello_greet() :
+  hello_status = 10
+
+  if hello_status < 10 :
+    print("little")
+  else :
+    print("enough")
+
+
+hello_greet()
