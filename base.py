@@ -37,13 +37,13 @@
 
 
 # 関数
-def hello_greet() :
-  hello_status = 10
+def hello_greet(times) :
+  hello_status = times
 
   if hello_status < 10 :
-    print("little")
+    print("a little")
   else :
     print("enough")
 
 
-hello_greet()
+hello_greet(5)
