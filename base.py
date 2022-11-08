@@ -49,20 +49,24 @@
 
 
 # list
-greet_list = ["good morning", "hello", "good evening"]
+# greet_list = ["good morning", "hello", "good evening"]
 # print(greet_list[0])
 
 
 # loop action
 
-def hello_greet(times) :
-  hello_status = times
+# def hello_greet(times) :
+#   hello_status = times
 
-  if hello_status < 2 :
-    print("a little")
-  else :
-    print("enough")
+#   if hello_status < 2 :
+#     print("a little")
+#   else :
+#     print("enough")
 
-for i in range(5):
-  print(i)
-  hello_greet(i + 1)
+# for i in range(5):
+#   print(i)
+#   hello_greet(i + 1)
+
+# listと組み合わせる
+# for item in greet_list:
+#   print(item)
