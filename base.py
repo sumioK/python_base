@@ -70,3 +70,11 @@
 # listと組み合わせる
 # for item in greet_list:
 #   print(item)
+
+
+# with
+# open()
+with open('./sample.txt', 'r') as file:
+  print(file.name)
+  print(file.mode)
+  print(file.read())
